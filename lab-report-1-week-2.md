@@ -17,7 +17,7 @@ Then type `yes` and press enter.
 
 Enter in your password (UCSD SSO) and you should be brought to this: 
 
-![2](reportstep2.png)
+![2](reportstep2.PNG)
 
 
 **Step 3 - Trying Some Commands**
@@ -25,7 +25,7 @@ Try some commands such as `cd ~`, `cd`, `ls`, `ls -lat`, and `ls -a`. These are 
 commands that let you navigate the directory. The functionalities of them are
 listed below:
 
-![3](reportstep3.png)
+![3](reportstep3.PNG)
 
 **Step 4 - Moving Files with scp**
 The command `scp` lets us copy a file from our computer to a remote one. If
@@ -39,14 +39,14 @@ file there!
 
 Try using `java` and `javac` and you should get this:
 
-![4](reportstep4.png)
+![4](reportstep4.PNG)
 
 **Step 5 - Setting an SSH Key**
 To make logging into the server easier, we can generate an SSH key. On Windows,
 if you use the command `ssh-keygen -t ed25519`, you can create a key to make 
 the login process quicker.
 
-![5](reportstep5.png)
+![5](reportstep5.PNG)
 
 Now if you try `ssh cs15lwi22aqh@ieng.ucsd.edu` you shouldn't have to enter
 your password.
@@ -57,9 +57,9 @@ Lasty, we can optimize our remote running even more with some tricks.
 
 The first one is that we can write a command in quotes at the end of an `ssh`
 command to run it on the remote server and then exit like so:
-![6](reportstep6.png)
+![6](reportstep6.PNG)
 
 
 We can also run multiple commands on the same line by separating them with
 semicolons like so:
-![6](reportstep6-2.png)
+![6](reportstep6-2.PNG)
