@@ -62,4 +62,4 @@ command to run it on the remote server and then exit like so:
 
 We can also run multiple commands on the same line by separating them with
 semicolons like so:
-![6](reportstep6.5.png)
+![6](reportstep6-2.png)
