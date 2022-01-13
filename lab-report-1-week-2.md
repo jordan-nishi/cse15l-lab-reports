@@ -17,7 +17,7 @@ Then type `yes` and press enter.
 
 Enter in your password (UCSD SSO) and you should be brought to this: 
 
-![1](reportstep1.png)
+![2](reportstep2.png)
 
 
 **Step 3 - Trying Some Commands**
