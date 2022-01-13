@@ -17,11 +17,11 @@ Then type `yes` and press enter.
 
 Enter in your password (UCSD SSO) and you should be brought to this: 
 
-![2](reportstep2.png)
+![1](reportstep1.png)
 
 
 **Step 3 - Trying Some Commands**
-Try some commands such as `cd ~` `cd` `ls` `ls -lat` and `ls -a`. These are some
+Try some commands such as `cd ~`, `cd`, `ls`, `ls -lat`, and `ls -a`. These are some
 commands that let you navigate the directory. The functionalities of them are
 listed below:
 
