@@ -3,7 +3,7 @@
 ### Jordan Nishi A16201086
 
 **Step 1 - Installing VScode**
-Go to `https://code.visualstudio.com/` and click the Download button. Once you do
+Go to [Visual Studio Code](https://code.visualstudio.com/) and click the Download button. Once you do
 you should see a screen that looks like this:
 ![1](reportstep1.png)
 
