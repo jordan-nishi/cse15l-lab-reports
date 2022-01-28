@@ -32,7 +32,7 @@ The failure-inducing input arises when we try to run one of our JUnit tests in M
 
 [code diff](diff_importing.png)
 
-[Link to Test File - test-lab](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParseTest.java)
+[Link to File - MarkdownParseTest.java](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParseTest.java)
 
 ![fail](fail_importing.png)
 
