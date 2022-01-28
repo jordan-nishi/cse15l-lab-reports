@@ -30,7 +30,8 @@ The failure-inducing input arises when we try to run one of our JUnit tests in M
 
 **Bug 3 - Importing Necessary Utilities**
 
-[code diff](diff_importing.png)
+Bug Fix:
+![code diff](diff_importing.png)
 
 [Link to File - MarkdownParseTest.java](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParseTest.java)
 
