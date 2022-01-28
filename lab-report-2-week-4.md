@@ -35,6 +35,7 @@ Bug Fix:
 
 [Link to File - MarkdownParseTest.java](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParseTest.java)
 
+Failure:
 ![fail](fail_importing.png)
 
 The failure-inducing input arises when we try to compile MarkdownParseTest.java. The symptoms that it shows
