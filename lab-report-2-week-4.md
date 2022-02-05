@@ -28,16 +28,19 @@ Failure:
 The failure-inducing input arises when we try to run one of our JUnit tests in MarkdownParseTest.java on the file test-file-md. The symptom it gave can be seen in the failure image, where it tells us that there was an unreported IOException. To fix this bug, we had to add a try-catch block to account for when an IOException happens.
 
 
-**Bug 3 - Importing Necessary Utilities**
+**Bug 3 - Out of Bounds Error**
 
 Bug Fix:
-![code diff](diff_importing.png)
+![code diff](index_fix.png)
 
-[Link to File - MarkdownParseTest.java](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParseTest.java)
+[Link to File - test-lab-4.md](https://github.com/jordan-nishi/markdown-parse/blob/main/test-lab-4.md)
 
 Failure:
-![fail](fail_importing.png)
+![fail](index_failure.png)
 
-The failure-inducing input arises when we try to compile MarkdownParseTest.java. The symptoms that it shows
-tells us that there are missing symbols and that (not shown in the screenshot) "Files" and "Path" cannot be
-resolved. This led us to fixing this bug by importing the necessary utilities such as java.nio.file.Files, java.nio.file.Path, java.util.List, java.io.FilenameFilter, and java.io.IOException.
+The failure-inducing input arises when we try to run MarkdownParse.java with
+test-lab-4.md. The symptom we get is that there is an index out of bounds exception.
+The reason this happens is because one of our if statements checks for an "!"
+before the first open bracket, however, this md file has nothing before the bracket, leading
+to an index out of bounds exception. To fix this, we added another check to the if 
+statement to pass only if the open bracket isn't at position 0.
