@@ -18,7 +18,13 @@ Users in my C drive. I edited the config file to have the following contents.
 
 ![image](3_config.png)
 
-Lastly, I tried out `ssh ieng6` and I was able to login without my username (or password)!
+I tried out `ssh ieng6` and I was able to login without my username (or password)!
 
 ![image](3_runningieng6.png)
 
+Lastly I tried using `scp` to copy a file to my account
+
+![image](3_scp.png)
+
+And the file is there!
+![image](3_checkscp.png)
