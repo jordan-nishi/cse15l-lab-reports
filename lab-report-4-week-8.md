@@ -4,7 +4,7 @@
 
 [Link to my Markdown Parse repository](https://github.com/jordan-nishi/markdown-parse)
 
-[Link to lab Markdown Parse](https://github.com/ucsd-cse15l-w22/markdown-parse)
+[Link to Reviewed Markdown Parse](https://github.com/JaredJose/markdown-parse)
 ___
 
 ***for future self**: JUnit commands used*
@@ -12,6 +12,7 @@ ___
 javac -cp ".;lib\junit-4.13.2.jar;lib\hamcrest-core-1.3.jar" MarkdownParseTest.java
 
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
+
 
 ___
 
@@ -28,8 +29,8 @@ ___
 snippet1.md with MarkdownParse.java
 ![](sniptest_1.png)
 
-snippet1.md with MarkdownParseLab.java
-![](sniptestlab_1.png)
+snippet1.md with MarkdownParseJose.java
+![](sniptestjose_1.png)
 
 ### Code Change Question:
 
@@ -55,8 +56,8 @@ snippet2.md with MarkdownParse.java
 
 ![](sniptest_2.png)
 
-snippet2.md with MarkdownParseLab.java
-![](sniptestlab_2.png)
+snippet2.md with MarkdownParseJose.java
+![](sniptestjose_2.png)
 
 ### Code Change Question:
 
@@ -83,8 +84,8 @@ snippet3.md with MarkdownParse.java
 
 ![](sniptest_3.png)
 
-snippet3.md with MarkdownParseLab.java
-![](sniptestlab_3.png)
+snippet3.md with MarkdownParseJose.java
+![](sniptestjose_3.png)
 
 ### Code Change Question:
 
